@@ -18,19 +18,25 @@ header > img {
 
 nav {
     float: right;
-    margin-top: 5px;
+    margin-top:7px;
 }
 
 a {
     float: left;
     padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
-    border: 5px solid transparent;
+    border: 3px solid transparent;
     color: #9d9d9d;
+    border-radius: 18px;
+}
+
+a:last-of-type{
+    border-color: #9d9d9d;
+    margin-left: 30px;
 }
 
 main {
